@@ -1,0 +1,144 @@
+.card {
+  border: 0.12em solid var(--gray);
+  border-radius: 0.4em;
+  width: 100%;
+  max-width: 25em;
+  cursor: pointer;
+  transition: transform 150ms ease;
+  background-color: white;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+.card__header {
+  padding: 1.2em;
+  aspect-ratio: 1.5;
+  border-bottom: 0.12em solid var(--gray);
+  position: relative;
+}
+.card__img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 500ms ease;
+}
+.card__header:hover .card__img1 {
+  opacity: 0;
+}
+.card__header:hover .card__img2 {
+  opacity: 1;
+}
+.card__header:hover .card__img3 {
+  opacity: 1;
+}
+.card__img1 {
+  opacity: 1;
+}
+.card__img2 {
+  opacity: 0;
+}
+.card__img2 {
+  opacity: 0;
+}
+/* .card__header:hover+.card__body>.card__body__header>.card__brand {
+  background-color: blueviolet;
+} */
+.card__body {
+  padding: 1.5em 1.2em 2em;
+  display: grid;
+  gap: 1.5em 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+.card__body__header {
+  grid-column: span 2;
+}
+.card__brand {
+  font-size: 0.9em;
+  margin-left: 1em;
+  color: #888;
+  font-weight: 300;
+  margin-bottom: 0.2em;
+}
+.card__name {
+  font-size: 1em;
+  font-weight: 500;
+}
+.card__price__label {
+  color: #888;
+  margin-left: 1em;
+  font-weight: 300;
+  font-size: 0.9em;
+  margin-bottom: 0.2em;
+}
+.card__price__value {
+  font-weight: 500;
+  font-size: 1em;
+}
+.card__price__value::before {
+  content: '$';
+  margin-right: 0.2em;
+}
+.card__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  width: 2em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: white;
+  justify-self: center;
+  position: relative;
+  left: 1em;
+  /* filter: grayscale(0.3); */
+}
+.card__btn:hover {
+  filter: grayscale(0);
+}
+
+@media (min-width: 520px) {
+  .card{
+    width: 100%;
+    max-width: 12em;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 100%;
+    max-width: 20em;
+  }
+} 
+
+@media (min-width: 836px) {
+  .card {
+    width: 100%;
+    max-width: 23em;
+  }
+} 
+
+@media (min-width: 992px) {
+  .card {
+    width: 100%;
+    max-width: 28em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    width: 100%;
+    max-width: 15em;
+  }
+}
+
+@media (min-width: 1300px) {
+  .card {
+    width: 100%;
+    max-width: 25em;
+  }
+}

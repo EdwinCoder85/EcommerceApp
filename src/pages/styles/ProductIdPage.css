@@ -1,0 +1,7 @@
+.product__main {
+  width: 100%;
+  max-width: 1250px;
+  min-height: calc(100vh - 70px - 150px);
+  display: flex;
+  flex-direction: column;
+}

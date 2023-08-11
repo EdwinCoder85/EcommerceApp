@@ -1,0 +1,14 @@
+.purchases__main {
+  width: 100%;
+  max-width: 1000px;
+  min-height: calc(100vh - 70px - 150px);
+}
+
+.purchases h2 {
+  margin-bottom: 50px;
+}
+
+.purchase-products-list {
+  padding: 30px 10px 10px;
+}
+

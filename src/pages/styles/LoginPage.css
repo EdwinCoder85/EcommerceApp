@@ -1,0 +1,97 @@
+.login__container{
+  background: hsla(0,1%,72%,.1);
+  color: #3f3e3e;
+}
+.login__main {
+  min-height: calc(100vh - 74px - 150px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+}
+.login__title {
+  display: block;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.login__data {
+  background: #d8f5fd;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+.login__subtitle {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.login__field {
+  margin-bottom: 6px;
+}
+.login__field i {
+  font-size: 1.2rem;
+  margin-right: 13px;
+}
+.login__package {
+  margin-bottom: 20px;
+}
+.login__label {
+  display: block;
+  margin-bottom: 10px;
+}
+.login__input {
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 3px;
+  display: block;
+  margin-top: 4px;
+  padding: 6px 8px;
+  width: 100%;
+}
+.login__error-message {
+  font-size: 0.6rem;
+  color: #9c0c0c;
+  font-weight: 500;
+}
+.login__button {
+  text-decoration: none;
+  background: transparent;
+  font-size: inherit;
+}
+.login__button--submit {
+  background: #f85555;
+  color: #fff;
+  margin: 10px 0 25px;
+  padding: 9px;
+  width: 100%;
+  font-size: 1rem;
+}
+.login__navigate {
+  font-size: .9rem;
+}
+.login__package--centered {
+  text-align: center;
+}
+.login__button--link {
+  color: #2fa8f8;
+}
+.login__avatar {
+  border-radius: 50%;
+  display: block;
+  height: 60%;
+  margin: 0 auto 20px;
+  width: 60%;
+}
+.login__user {
+  display: block;
+  margin-bottom: 10px;
+}
